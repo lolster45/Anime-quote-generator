@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #161925;
+    font-family: 'Barlow', sans-serif;
+}
+#container {
+    background-color: #2F344C;
+    min-height: 380px;
+    height: auto;
+    width: 600px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.design {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 400px;
+    height: auto;
+    min-height: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: #3E4565;
+    border-radius: 10px;
+    font-weight: 400;
+}
+
+#anime {     
+    color: white;
+}
+#character {
+    color: white;
+}
+#quote {
+    color: black;
+
+}
+#btn {
+    display: flex;
+    justify-content: center;
+}
+
+div button {
+    cursor: pointer;
+    background-color: #3E4565;
+    color: white;
+    font-weight: 500;
+    font-size: 26px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    height: 50px;
+    width: 200px;
+    /* left: 210px; */
+    margin-top: 30px;
+    transition: all 0.1s ease-in;
+    
+}
+div button:hover {
+    background-color: white;
+    color: black;
+}
+#anime p {
+    position: relative;
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 24px;
+    transform: translateY(10px);
+    padding: 0px 5px 25px 5px;
+
+}
+#character p {
+    position: relative;
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 24px;
+    transform: translateY(10px);
+    padding: 0px 5px 25px 5px;
+}
+
+#quote p {
+    position: relative;
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 20px;
+    color: white;
+    padding: 0px 5px 25px 5px;
+    transform: translateY(10px);
+}
+
+#legend {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    width: 100px;
+    border-radius: 10px;
+    height: 260px;
+    top: 50px;
+    left: 40px;
+}
+
+#legend p {
+    text-align: end;
+    margin-bottom: 55px;
+}
